@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C21E85E07100AAEF49 /* AppDelegate.swift */; };
+		CED028C51E85E07200AAEF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C41E85E07200AAEF49 /* ViewController.swift */; };
+		CED028C81E85E07200AAEF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED028C61E85E07200AAEF49 /* Main.storyboard */; };
+		CED028CA1E85E07200AAEF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED028C91E85E07200AAEF49 /* Assets.xcassets */; };
+		CED028CD1E85E07200AAEF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED028CB1E85E07200AAEF49 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CED028BF1E85E07100AAEF49 /* BakPak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakPak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED028C21E85E07100AAEF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED028C41E85E07200AAEF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED028C71E85E07200AAEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED028C91E85E07200AAEF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED028CC1E85E07200AAEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED028CE1E85E07200AAEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED028BC1E85E07100AAEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED028B61E85E07100AAEF49 = {
+			isa = PBXGroup;
+			children = (
+				CED028C11E85E07100AAEF49 /* BakPak */,
+				CED028C01E85E07100AAEF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED028C01E85E07100AAEF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED028BF1E85E07100AAEF49 /* BakPak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED028C11E85E07100AAEF49 /* BakPak */ = {
+			isa = PBXGroup;
+			children = (
+				CED028C21E85E07100AAEF49 /* AppDelegate.swift */,
+				CED028C41E85E07200AAEF49 /* ViewController.swift */,
+				CED028C61E85E07200AAEF49 /* Main.storyboard */,
+				CED028C91E85E07200AAEF49 /* Assets.xcassets */,
+				CED028CB1E85E07200AAEF49 /* LaunchScreen.storyboard */,
+				CED028CE1E85E07200AAEF49 /* Info.plist */,
+			);
+			path = BakPak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED028BE1E85E07100AAEF49 /* BakPak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED028D11E85E07200AAEF49 /* Build configuration list for PBXNativeTarget "BakPak" */;
+			buildPhases = (
+				CED028BB1E85E07100AAEF49 /* Sources */,
+				CED028BC1E85E07100AAEF49 /* Frameworks */,
+				CED028BD1E85E07100AAEF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BakPak;
+			productName = BakPak;
+			productReference = CED028BF1E85E07100AAEF49 /* BakPak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED028B71E85E07100AAEF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "BakPak Edu.";
+				TargetAttributes = {
+					CED028BE1E85E07100AAEF49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5ZT9RKNKUC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CED028BA1E85E07100AAEF49 /* Build configuration list for PBXProject "BakPak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED028B61E85E07100AAEF49;
+			productRefGroup = CED028C01E85E07100AAEF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED028BE1E85E07100AAEF49 /* BakPak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED028BD1E85E07100AAEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED028CD1E85E07200AAEF49 /* LaunchScreen.storyboard in Resources */,
+				CED028CA1E85E07200AAEF49 /* Assets.xcassets in Resources */,
+				CED028C81E85E07200AAEF49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED028BB1E85E07100AAEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED028C51E85E07200AAEF49 /* ViewController.swift in Sources */,
+				CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CED028C61E85E07200AAEF49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED028C71E85E07200AAEF49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED028CB1E85E07200AAEF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED028CC1E85E07200AAEF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED028CF1E85E07200AAEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED028D01E85E07200AAEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED028D21E85E07200AAEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZT9RKNKUC;
+				INFOPLIST_FILE = BakPak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.bakpak.BakPak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CED028D31E85E07200AAEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZT9RKNKUC;
+				INFOPLIST_FILE = BakPak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.bakpak.BakPak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED028BA1E85E07100AAEF49 /* Build configuration list for PBXProject "BakPak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED028CF1E85E07200AAEF49 /* Debug */,
+				CED028D01E85E07200AAEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED028D11E85E07200AAEF49 /* Build configuration list for PBXNativeTarget "BakPak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED028D21E85E07200AAEF49 /* Debug */,
+				CED028D31E85E07200AAEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED028B71E85E07100AAEF49 /* Project object */;
+}
