@@ -61,9 +61,11 @@
 	<string>417439651933973</string>
 	<key>FacebookDisplayName</key>
 	<string>BakPak</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>fbauth2</string>
-    </array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow access to your camera roll in order to upload your files</string>
 </dict>
 </plist>

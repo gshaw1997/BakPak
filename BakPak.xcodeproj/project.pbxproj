@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE10EA771E86B35D00E2CF70 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10EA761E86B35D00E2CF70 /* Post.swift */; };
+		CE10EA7B1E86DB9000E2CF70 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10EA7A1E86DB9000E2CF70 /* RoundedImage.swift */; };
 		CE7AADAA1E8695EA00E2A0C3 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7AADA91E8695EA00E2A0C3 /* CommunityVC.swift */; };
 		CE7AADAC1E8698EA00E2A0C3 /* RoundedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7AADAB1E8698EA00E2A0C3 /* RoundedBlock.swift */; };
 		CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C21E85E07100AAEF49 /* AppDelegate.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		688DDCD1853ECF0C3CDEF225 /* Pods_BakPak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BakPak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAACF069727C8729B71F07BF /* Pods-BakPak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BakPak.release.xcconfig"; path = "Pods/Target Support Files/Pods-BakPak/Pods-BakPak.release.xcconfig"; sourceTree = "<group>"; };
+		CE10EA761E86B35D00E2CF70 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CE10EA7A1E86DB9000E2CF70 /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		CE7AADA91E8695EA00E2A0C3 /* CommunityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
 		CE7AADAB1E8698EA00E2A0C3 /* RoundedBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBlock.swift; sourceTree = "<group>"; };
 		CED028BF1E85E07100AAEF49 /* BakPak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakPak.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,7 @@
 		CED028D91E860CB700AAEF49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE10EA761E86B35D00E2CF70 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				CED028F81E8669AD00AAEF49 /* TopShadowTabBar.swift */,
 				CED028FA1E86700800AAEF49 /* PostCell.swift */,
 				CED028FC1E86761E00AAEF49 /* PostView.swift */,
+				CE10EA7A1E86DB9000E2CF70 /* RoundedImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -303,10 +309,12 @@
 				CED028F31E86417A00AAEF49 /* CompositionBookField.swift in Sources */,
 				CED028F91E8669AD00AAEF49 /* TopShadowTabBar.swift in Sources */,
 				CED028DE1E861B9B00AAEF49 /* RoundedButton.swift in Sources */,
+				CE10EA771E86B35D00E2CF70 /* Post.swift in Sources */,
 				CE7AADAA1E8695EA00E2A0C3 /* CommunityVC.swift in Sources */,
 				CED028C51E85E07200AAEF49 /* LoginVC.swift in Sources */,
 				CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */,
 				CED028F51E8644FA00AAEF49 /* InfoVC.swift in Sources */,
+				CE10EA7B1E86DB9000E2CF70 /* RoundedImage.swift in Sources */,
 				CED028FD1E86761E00AAEF49 /* PostView.swift in Sources */,
 				CE7AADAC1E8698EA00E2A0C3 /* RoundedBlock.swift in Sources */,
 				CED028FB1E86700800AAEF49 /* PostCell.swift in Sources */,

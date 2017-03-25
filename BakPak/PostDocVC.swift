@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PostDocVC: UIViewController {
+class PostDocVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     
     @IBOutlet weak var titleField: UITextField!
@@ -17,12 +17,14 @@ class PostDocVC: UIViewController {
     @IBOutlet weak var docImage: UIImageView!
     @IBOutlet weak var publishToComun: UISwitch!
     
-    override func awakeFromNib() {
-         navigationController?.navigationBar.barTintColor = UIColor(red: 244.00, green: 67.00, blue: 54.00, alpha: 1.0)
-    }
-
+    var feedVC: FeedVC?
+    
+    
+    let imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -38,17 +40,30 @@ class PostDocVC: UIViewController {
     }
     
     @IBAction func uploadPressed(_ sender: Any) {
+        
+        
+        present(imagePicker, animated: true, completion: nil)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            docImage.image = pickedImage
+        }
+        
+        dismiss(animated: true, completion: nil)
     }
-    */
+    
+    @IBAction func savePostPressed(_ sender: Any) {
+        
+        let newPost = Post()
+        newPost.docTitle = titleField.text
+        newPost.tags = titleField.text
+        feedVC?.currentPosts.append(newPost)
+        print("All Posts: \(feedVC?.currentPosts)")
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
 
 }
