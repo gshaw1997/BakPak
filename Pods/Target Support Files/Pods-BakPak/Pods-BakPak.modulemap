@@ -1,0 +1,6 @@
+framework module Pods_BakPak {
+  umbrella header "Pods-BakPak-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,20 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C21E85E07100AAEF49 /* AppDelegate.swift */; };
-		CED028C51E85E07200AAEF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C41E85E07200AAEF49 /* ViewController.swift */; };
+		CED028C51E85E07200AAEF49 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028C41E85E07200AAEF49 /* LoginVC.swift */; };
 		CED028C81E85E07200AAEF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED028C61E85E07200AAEF49 /* Main.storyboard */; };
 		CED028CA1E85E07200AAEF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED028C91E85E07200AAEF49 /* Assets.xcassets */; };
 		CED028CD1E85E07200AAEF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED028CB1E85E07200AAEF49 /* LaunchScreen.storyboard */; };
+		CED028D61E85E08D00AAEF49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED028D51E85E08D00AAEF49 /* MapKit.framework */; };
+		CED028D81E860C9600AAEF49 /* bakpak.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED028D71E860C9600AAEF49 /* bakpak.ttf */; };
+		CED028DE1E861B9B00AAEF49 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028DD1E861B9B00AAEF49 /* RoundedButton.swift */; };
+		CED028E01E861EB400AAEF49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED028DF1E861EB400AAEF49 /* GoogleService-Info.plist */; };
+		CED028F31E86417A00AAEF49 /* CompositionBookField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028F21E86417A00AAEF49 /* CompositionBookField.swift */; };
+		CED028F51E8644FA00AAEF49 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028F41E8644FA00AAEF49 /* InfoVC.swift */; };
+		CED028F71E865A0500AAEF49 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028F61E865A0500AAEF49 /* FeedVC.swift */; };
+		CED028F91E8669AD00AAEF49 /* TopShadowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028F81E8669AD00AAEF49 /* TopShadowTabBar.swift */; };
+		CED028FB1E86700800AAEF49 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028FA1E86700800AAEF49 /* PostCell.swift */; };
+		CED028FD1E86761E00AAEF49 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED028FC1E86761E00AAEF49 /* PostView.swift */; };
+		E80D4AE6A66D04E81F2E62E4 /* Pods_BakPak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688DDCD1853ECF0C3CDEF225 /* Pods_BakPak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		688DDCD1853ECF0C3CDEF225 /* Pods_BakPak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BakPak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAACF069727C8729B71F07BF /* Pods-BakPak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BakPak.release.xcconfig"; path = "Pods/Target Support Files/Pods-BakPak/Pods-BakPak.release.xcconfig"; sourceTree = "<group>"; };
 		CED028BF1E85E07100AAEF49 /* BakPak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakPak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED028C21E85E07100AAEF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED028C41E85E07200AAEF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED028C41E85E07200AAEF49 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CED028C71E85E07200AAEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED028C91E85E07200AAEF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED028CC1E85E07200AAEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED028CE1E85E07200AAEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED028D51E85E08D00AAEF49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CED028D71E860C9600AAEF49 /* bakpak.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bakpak.ttf; sourceTree = "<group>"; };
+		CED028DD1E861B9B00AAEF49 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CED028DF1E861EB400AAEF49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CED028F11E863BA400AAEF49 /* BakPak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BakPak.entitlements; sourceTree = "<group>"; };
+		CED028F21E86417A00AAEF49 /* CompositionBookField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositionBookField.swift; sourceTree = "<group>"; };
+		CED028F41E8644FA00AAEF49 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		CED028F61E865A0500AAEF49 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		CED028F81E8669AD00AAEF49 /* TopShadowTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopShadowTabBar.swift; sourceTree = "<group>"; };
+		CED028FA1E86700800AAEF49 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CED028FC1E86761E00AAEF49 /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		F7CE03AC42C28C619BF6C8BC /* Pods-BakPak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BakPak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BakPak/Pods-BakPak.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED028D61E85E08D00AAEF49 /* MapKit.framework in Frameworks */,
+				E80D4AE6A66D04E81F2E62E4 /* Pods_BakPak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AAE56DAECBA16F4EBD587A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CE03AC42C28C619BF6C8BC /* Pods-BakPak.debug.xcconfig */,
+				CAACF069727C8729B71F07BF /* Pods-BakPak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CED028B61E85E07100AAEF49 = {
 			isa = PBXGroup;
 			children = (
 				CED028C11E85E07100AAEF49 /* BakPak */,
 				CED028C01E85E07100AAEF49 /* Products */,
+				CED028D41E85E08D00AAEF49 /* Frameworks */,
+				7AAE56DAECBA16F4EBD587A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,65 @@
 		CED028C11E85E07100AAEF49 /* BakPak */ = {
 			isa = PBXGroup;
 			children = (
+				CED028F11E863BA400AAEF49 /* BakPak.entitlements */,
+				CED028DC1E860CDD00AAEF49 /* Resources */,
+				CED028D91E860CB700AAEF49 /* Model */,
+				CED028DA1E860CBD00AAEF49 /* View */,
+				CED028DB1E860CC300AAEF49 /* Controller */,
 				CED028C21E85E07100AAEF49 /* AppDelegate.swift */,
-				CED028C41E85E07200AAEF49 /* ViewController.swift */,
 				CED028C61E85E07200AAEF49 /* Main.storyboard */,
 				CED028C91E85E07200AAEF49 /* Assets.xcassets */,
 				CED028CB1E85E07200AAEF49 /* LaunchScreen.storyboard */,
+				CED028DF1E861EB400AAEF49 /* GoogleService-Info.plist */,
 				CED028CE1E85E07200AAEF49 /* Info.plist */,
 			);
 			path = BakPak;
+			sourceTree = "<group>";
+		};
+		CED028D41E85E08D00AAEF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED028D51E85E08D00AAEF49 /* MapKit.framework */,
+				688DDCD1853ECF0C3CDEF225 /* Pods_BakPak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED028D91E860CB700AAEF49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CED028DA1E860CBD00AAEF49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED028DD1E861B9B00AAEF49 /* RoundedButton.swift */,
+				CED028F21E86417A00AAEF49 /* CompositionBookField.swift */,
+				CED028F81E8669AD00AAEF49 /* TopShadowTabBar.swift */,
+				CED028FA1E86700800AAEF49 /* PostCell.swift */,
+				CED028FC1E86761E00AAEF49 /* PostView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CED028DB1E860CC300AAEF49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CED028C41E85E07200AAEF49 /* LoginVC.swift */,
+				CED028F41E8644FA00AAEF49 /* InfoVC.swift */,
+				CED028F61E865A0500AAEF49 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CED028DC1E860CDD00AAEF49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CED028D71E860C9600AAEF49 /* bakpak.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED028D11E85E07200AAEF49 /* Build configuration list for PBXNativeTarget "BakPak" */;
 			buildPhases = (
+				C14E2969E8788D94E3EDE366 /* [CP] Check Pods Manifest.lock */,
 				CED028BB1E85E07100AAEF49 /* Sources */,
 				CED028BC1E85E07100AAEF49 /* Frameworks */,
 				CED028BD1E85E07100AAEF49 /* Resources */,
+				4E3485B7AC1A3D822EDF0F39 /* [CP] Embed Pods Frameworks */,
+				B795336920285D37E0E32D89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +190,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5ZT9RKNKUC;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED028CD1E85E07200AAEF49 /* LaunchScreen.storyboard in Resources */,
+				CED028D81E860C9600AAEF49 /* bakpak.ttf in Resources */,
+				CED028E01E861EB400AAEF49 /* GoogleService-Info.plist in Resources */,
 				CED028CA1E85E07200AAEF49 /* Assets.xcassets in Resources */,
 				CED028C81E85E07200AAEF49 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +237,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E3485B7AC1A3D822EDF0F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BakPak/Pods-BakPak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B795336920285D37E0E32D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BakPak/Pods-BakPak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14E2969E8788D94E3EDE366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED028BB1E85E07100AAEF49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED028C51E85E07200AAEF49 /* ViewController.swift in Sources */,
+				CED028F71E865A0500AAEF49 /* FeedVC.swift in Sources */,
+				CED028F31E86417A00AAEF49 /* CompositionBookField.swift in Sources */,
+				CED028F91E8669AD00AAEF49 /* TopShadowTabBar.swift in Sources */,
+				CED028DE1E861B9B00AAEF49 /* RoundedButton.swift in Sources */,
+				CED028C51E85E07200AAEF49 /* LoginVC.swift in Sources */,
 				CED028C31E85E07100AAEF49 /* AppDelegate.swift in Sources */,
+				CED028F51E8644FA00AAEF49 /* InfoVC.swift in Sources */,
+				CED028FD1E86761E00AAEF49 /* PostView.swift in Sources */,
+				CED028FB1E86700800AAEF49 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,27 +419,41 @@
 		};
 		CED028D21E85E07200AAEF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CE03AC42C28C619BF6C8BC /* Pods-BakPak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BakPak/BakPak.entitlements;
 				DEVELOPMENT_TEAM = 5ZT9RKNKUC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BakPak",
+				);
 				INFOPLIST_FILE = BakPak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.bakpak.BakPak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CED028D31E85E07200AAEF49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAACF069727C8729B71F07BF /* Pods-BakPak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BakPak/BakPak.entitlements;
 				DEVELOPMENT_TEAM = 5ZT9RKNKUC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BakPak",
+				);
 				INFOPLIST_FILE = BakPak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.bakpak.BakPak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +476,7 @@
 				CED028D31E85E07200AAEF49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
