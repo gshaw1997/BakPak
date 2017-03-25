@@ -53,6 +53,7 @@ class LoginVC: UIViewController {
                 print("FIR: Unable to auth - \(error)")
             }else{
                 print("FIR: Success auth")
+                self.performSegue(withIdentifier: "FBToSetup", sender: nil)
             }
         })
     }
